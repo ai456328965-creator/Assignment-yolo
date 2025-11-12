@@ -185,7 +185,6 @@ else:
                 st.write("- Using a different image")
                 st.write("- Ensuring the image quality is adequate")
             
-            st.markdown("</div>", unsafe_allow_html=True)
             
             # Download button for annotated image
             st.markdown("---")
@@ -215,6 +214,7 @@ st.markdown("""
     Hand Fracture Detection System | Powered by YOLOv8 & Streamlit
     </p>
 """, unsafe_allow_html=True)
+
 
 
 
